@@ -436,6 +436,7 @@ static void readCapital(CapitalInfo& capital, const sol::table& table)
     readAiPriority(capital.aiPriority, table);
 }
 
+
 static void readRuin(RuinInfo& ruin, const sol::table& table)
 {
     auto guard = table.get<OptionalTable>("guard");

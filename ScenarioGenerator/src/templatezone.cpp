@@ -2817,7 +2817,10 @@ void TemplateZone::placeCapital()
     for (const auto& spellId : capital.spells) {
         knownSpells->add(spellId);
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> b4a0da4... clean
     // If there are buildings specified for player, add them
     PlayerBuildings* playerBuildings{
         mapGenerator->map->find<PlayerBuildings>(ownerPlayer->getBuildingsId())};
